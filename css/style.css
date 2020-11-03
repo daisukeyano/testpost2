@@ -706,9 +706,11 @@ td:nth-child(odd) {
   width: 48%;
 }
 
-.insuranc__item--mt {
-  margin-top: calc(74 * (100vw / 375));
-  font-size: calc(14 * (100vw / 375));
+@media (max-width: 1024px) {
+  .insuranc__item--mt {
+    margin-top: calc(74 * (100vw / 375));
+    font-size: calc(14 * (100vw / 375));
+  }
 }
 
 @media (max-width: 1024px) {

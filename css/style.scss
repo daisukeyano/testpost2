@@ -591,8 +591,10 @@ td:nth-child(odd) {
   &__item{
     width: 48%;
     &--mt{
-      margin-top: calc(74 * (100vw / 375));
-      font-size: calc(14 * (100vw / 375));
+      @include sp {
+        margin-top: calc(74 * (100vw / 375));
+        font-size: calc(14 * (100vw / 375));
+      }
     }
     @include sp {
       width: 100%;
