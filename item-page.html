@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="ページの内容を表す文章" />
   <meta name="robots" content="noindex,nofollow" />
+  <meta name="format-detection" content="telephone=no">
   <title>Document</title>
   <link rel="stylesheet" href="css/ress.css">
   <link rel="stylesheet" href="css/slick-theme.css">
@@ -252,7 +253,7 @@
   <div class="contact content__area" id="contact">
     <h2 class="contact__heading common__heading">お問い合わせ<span class="insuranc__heading--en en">Contact</span></h2>
     <div class="contact__link">
-      <a class="contact__tel"><img src="images/tel.png" alt=""></a><!-- /.contact__tel -->
+      <a href="tel:0944858488" class="contact__tel"><img src="images/tel.png" alt=""></a><!-- /.contact__tel -->
       <a class="contact__mail"><img src="images/mail.png" alt=""></a><!-- /.contact__mail -->
     </div><!-- /.contact__link -->
     <div class="contact__sns">
@@ -265,14 +266,16 @@
   <footer class="footer">
     <div class="footer_area">
       <p class="footer__logo"><a href=""><img src="images/footer_logo.png" alt=""></a></p>
-      <ul class="footer__list">
-        <li class="footer__list__item"><a href="">レンタルバイク一覧</a></li>
-        <li class="footer__list__item"><a href="">料金について</a></li>
-        <li class="footer__list__item"><a href="">保険・補償について</a></li>
-        <li class="footer__list__item"><a href="">アクセス</a></li>
-        <li class="footer__list__item"><a href="">会社概要</a></li>
-        <li class="footer__list__item"><a href="">コンタクト</a></li>
-      </ul>
+      <div class="pc__only">
+        <ul class="footer__list pc__only">
+          <li class="footer__list__item"><a href="#rental">レンタルバイク一覧</a></li>
+          <li class="footer__list__item"><a href="#price">料金について</a></li>
+          <li class="footer__list__item"><a href="#insuranc">保険・補償について</a></li>
+          <li class="footer__list__item"><a href="#access">アクセス</a></li>
+          <li class="footer__list__item"><a href="">会社概要</a></li>
+          <li class="footer__list__item"><a href="#contact">コンタクト</a></li>
+        </ul>
+      </div><!-- /.pc__only -->
       <p class="footer__logo__dynamite"><img src="images/footer_logo_dynamite.png" alt=""></p>
       <small class="copy">© 2020 T-Plan all rights reserved.</small>
     </div><!-- /.footer_area -->
