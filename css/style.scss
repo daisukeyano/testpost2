@@ -177,6 +177,10 @@ td:nth-child(odd) {
 .header__list__item{
   font-size: 16px;
   margin: 0 69px 0 0;
+  @media screen and (min-width: 1025px) and (max-width: 1500px) {
+    margin-right: calc(69 * (100vw / 1920));
+    font-size: calc(20 * (100vw / 1920));
+   }
 }
 .header__list__item:last-child{
   margin: 0;
@@ -333,6 +337,11 @@ td:nth-child(odd) {
     padding-bottom: calc(60 * (100vw / 1920));
     text-align: center;
     font-size: 20px;
+    @media screen and (min-width: 1025px) and (max-width: 1500px) {
+      margin-top: calc(380 * (100vw / 1920));
+      padding-top: calc(53 * (100vw / 1920));
+      padding-bottom: calc(45 * (100vw / 1920));
+     }
     @include sp {
       position: relative;
       width: 100%;
@@ -340,7 +349,7 @@ td:nth-child(odd) {
       margin: 0;
       padding-top: calc(48 * (100vw / 375));
       padding-bottom: calc(40 * (100vw / 375));
-      font-size: 14px;
+      font-size: calc(14 * (100vw / 375));
       letter-spacing: 0.01em;
       border-top: 1px solid #fff;
       border-bottom: 1px solid #fff;
@@ -408,6 +417,10 @@ td:nth-child(odd) {
     padding: 87px 0 0 0;
     line-height: 1.8;
     letter-spacing: -.01em;
+    @media screen and (min-width: 1025px) and (max-width: 1500px) {
+      font-size: calc(24 * (100vw / 1920));
+      padding-top: calc(50 * (100vw / 1920));
+     }
     @include sp {
       font-size: calc(14 * (100vw / 375));
       padding-top: calc(15 * (100vw / 375));
@@ -653,6 +666,9 @@ td:nth-child(odd) {
     margin: 58px 0 0;
     width: 100%;
     border: none;
+    @media screen and (min-width: 1025px) and (max-width: 1500px) {
+      margin-top: calc(40 * (100vw / 1920));
+     }
     @include sp {
       margin-top: calc(16 * (100vw / 375));
     }
@@ -674,6 +690,10 @@ td:nth-child(odd) {
       &:nth-child(odd){
         background: transparent;
       }
+      @media screen and (min-width: 1025px) and (max-width: 1500px) {
+        padding-top: calc(28 * (100vw / 1920));
+        padding-bottom: calc(24 * (100vw / 1920));
+       }
       @include sp {
         font-size: calc(12 * (100vw / 375));
         padding: 8px 0 0 0;
@@ -683,6 +703,10 @@ td:nth-child(odd) {
     }
     &__number{
       padding: 22px 0 18px 0;
+      @media screen and (min-width: 1025px) and (max-width: 1500px) {
+        padding-top: calc(28 * (100vw / 1920));
+        padding-bottom: calc(24 * (100vw / 1920));
+       }
       @include sp {
         font-size: calc(12 * (100vw / 375));
         padding: 0 0 21px 0;
@@ -793,6 +817,9 @@ td:nth-child(odd) {
       font-size: 16px;
       margin: 0 69px 0 0;
       letter-spacing: 0em;
+      &:last-child{
+        margin: 0;
+      }
     }
   }
   .copy{

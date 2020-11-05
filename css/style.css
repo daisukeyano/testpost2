@@ -180,6 +180,13 @@ td:nth-child(odd) {
   margin: 0 69px 0 0;
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  .header__list__item {
+    margin-right: calc(69 * (100vw / 1920));
+    font-size: calc(20 * (100vw / 1920));
+  }
+}
+
 .header__list__item:last-child {
   margin: 0;
 }
@@ -360,6 +367,14 @@ td:nth-child(odd) {
   font-size: 20px;
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  .shop__btn {
+    margin-top: calc(380 * (100vw / 1920));
+    padding-top: calc(53 * (100vw / 1920));
+    padding-bottom: calc(45 * (100vw / 1920));
+  }
+}
+
 @media (max-width: 1024px) {
   .shop__btn {
     position: relative;
@@ -368,7 +383,7 @@ td:nth-child(odd) {
     margin: 0;
     padding-top: calc(48 * (100vw / 375));
     padding-bottom: calc(40 * (100vw / 375));
-    font-size: 14px;
+    font-size: calc(14 * (100vw / 375));
     letter-spacing: 0.01em;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
@@ -451,6 +466,13 @@ td:nth-child(odd) {
   padding: 87px 0 0 0;
   line-height: 1.8;
   letter-spacing: -.01em;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  .about__txt {
+    font-size: calc(24 * (100vw / 1920));
+    padding-top: calc(50 * (100vw / 1920));
+  }
 }
 
 @media (max-width: 1024px) {
@@ -787,6 +809,12 @@ td:nth-child(odd) {
   border: none;
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  .access__table {
+    margin-top: calc(40 * (100vw / 1920));
+  }
+}
+
 @media (max-width: 1024px) {
   .access__table {
     margin-top: calc(16 * (100vw / 375));
@@ -817,6 +845,13 @@ td:nth-child(odd) {
   background: transparent;
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  .access__table__time {
+    padding-top: calc(28 * (100vw / 1920));
+    padding-bottom: calc(24 * (100vw / 1920));
+  }
+}
+
 @media (max-width: 1024px) {
   .access__table__time {
     font-size: calc(12 * (100vw / 375));
@@ -828,6 +863,13 @@ td:nth-child(odd) {
 
 .access__table__number {
   padding: 22px 0 18px 0;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  .access__table__number {
+    padding-top: calc(28 * (100vw / 1920));
+    padding-bottom: calc(24 * (100vw / 1920));
+  }
 }
 
 @media (max-width: 1024px) {
@@ -970,6 +1012,10 @@ td:nth-child(odd) {
   font-size: 16px;
   margin: 0 69px 0 0;
   letter-spacing: 0em;
+}
+
+.footer__list__item:last-child {
+  margin: 0;
 }
 
 .footer .copy {
