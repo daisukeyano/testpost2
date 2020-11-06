@@ -190,12 +190,13 @@ header{
   }
 }
 .fixed{
-  position: fixed;
+  position: absolute;
   display: block;
   left: 0;
   height: 100px;
     @include sp {
     height: 56px;
+    position: fixed;
   }
 }
 .header__list{
