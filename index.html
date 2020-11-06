@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="ページの内容を表す文章" />
-  <meta name="robots" content="noindex,nofollow" />
   <meta name="format-detection" content="telephone=no">
-  <title>Document</title>
+  <title>T-PLAN</title>
   <link rel="stylesheet" href="css/ress.css">
   <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="css/slick.css">
@@ -19,30 +18,42 @@
 </head>
 <body>
   <!-- ヘッダー -->
-  <header class="header">
-      <div class="header__area">
-        <h1><a href=""><img src="images/logo.png" alt=""></a></h1>
-        <ul class="header__list">
-          <li class="header__list__item"><a href="#rental">レンタルバイク一覧</a></li>
-          <li class="header__list__item"><a href="#price">料金について</a></li>
-          <li class="header__list__item"><a href="#insuranc">保険・補償について</a></li>
-          <li class="header__list__item"><a href="#access">アクセス</a></li>
-          <li class="header__list__item"><a href="">会社概要</a></li>
-          <li class="header__list__item"><a href="#contact">コンタクト</a></li>
-        </ul>
+  <header id="top-head" class="l-header header fixed" style="top: 0px;">
+  <div class="p-global-header header__area">
+    <div id="mobile-head">
+      <h2 class="sp__nav--heading header__heading"><a href="/"><img src="images/logo.png" alt="T-PLAN CO.LTD" width=""></a></h2>
+      <div id="nav-toggle" class="nav-toggle">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
-    </header>
-    <div id="wrap">
-      <ul class="slider slider10">
-        <li class="slide-item"><img src="images/slide1.jpg" class="js-lazyload" alt="" width="100%" /></li>
-        <li class="slide-item"><img src="images/slide1.jpg" class="js-lazyload" alt="" width="100%" /></li>
-        <li class="slide-item"><img src="images/slide1.jpg" class="js-lazyload" alt="" width="100%" /></li>
+    </div>
+    <nav id="global-nav" class="p-header-nav">
+      <ul class="header__list">
+        <li class="header__list__item"><a href="#rental">レンタルバイク一覧</a></li>
+        <li class="header__list__item"><a href="#price">料金について</a></li>
+        <li class="header__list__item"><a href="#insuranc">保険・補償について</a></li>
+        <li class="header__list__item"><a href="#access">アクセス</a></li>
+        <li class="header__list__item"><a href="https://t-plan8.com/">会社概要</a></li>
+        <li class="header__list__item"><a href="#contact">コンタクト</a></li>
       </ul>
+    </nav>
+  </div>
+</header>
+  <!-- ヘッダー -->
+
+  <div id="wrap">
+    <ul class="slider slider10">
+      <li class="slide-item"><img src="images/slide1.jpg" class="js-lazyload" alt="" width="100%" /></li>
+      <li class="slide-item"><img src="images/slide1.jpg" class="js-lazyload" alt="" width="100%" /></li>
+      <li class="slide-item"><img src="images/slide1.jpg" class="js-lazyload" alt="" width="100%" /></li>
+    </ul>
     <div class="scroll">
       <p class="scroll__arrow">scroll</p>
     </div>
-    </div>
-  <!-- ヘッダー -->
+  </div>
 
 
   <!-- feature -->
@@ -61,7 +72,7 @@
       </p>
     </div><!-- /.shop-txt -->
     <img src="images/shop.jpg" alt="">
-    <a class="shop__btn" href="">Net Shop</a>
+    <a class="shop__btn" href="https://shop.dynamite-crew-japan.com/">Net Shop</a>
   </section>
   <!-- netshop -->
 
@@ -159,7 +170,7 @@
     <div class="price__list pay__list">
       <div class="pay__item">
         <h3 class="ttl-ora">支払方法について</h3>
-          <img class="pay__item__img" src="images/payment.png" alt="">
+          <img class="pay__item__img" src="images/payment.png" alt="クレジットカード一覧">
           <p class="pay__item__txt">お支払方法は、クレジットカード・現金払いよりお選びいただけます。<br>
             【クレジットカード】<br>
             クレジットカードでのお支払いが可能です。ご指定のカード会社の規約に基づきお支払いをお願い致します。<br>
@@ -267,39 +278,39 @@
         </table>
       </div>
       <div class="access__map"><img src="images/map.png" alt=""></div><!-- /.access__map -->
-      <a class="access__btn" href="">会社概要</a>
+      <a class="access__btn" href="https://t-plan8.com/">会社概要</a>
     </div><!-- /.access__wrap -->
   </div><!-- /.access -->
 
   <div class="contact content__area" id="contact">
     <h2 class="contact__heading common__heading">お問い合わせ<span class="insuranc__heading--en en">Contact</span></h2>
     <div class="contact__link">
-      <a href="tel:0944858488" class="contact__tel"><img src="images/tel.png" alt=""></a><!-- /.contact__tel -->
-      <a class="contact__mail"><img src="images/mail.png" alt=""></a><!-- /.contact__mail -->
+      <a href="tel:0944858488" class="contact__tel"><img src="images/tel.png" alt="tel"></a><!-- /.contact__tel -->
+      <a class="contact__mail"><img src="images/mail.png" alt="mail"></a><!-- /.contact__mail -->
     </div><!-- /.contact__link -->
     <div class="contact__sns">
       <p class="contact__sns__txt">@dynamite_crew_japan</p>
-      <a href=""><img src="images/sns.png" alt=""></a>
+      <a href="https://www.instagram.com/dynamite_crew_japan/"><img src="images/sns.png" alt="instagram"></a>
     </div><!-- /.contact__sns -->
   </div><!-- /.contact -->
 
   <!-- フッター -->
   <footer class="footer">
     <div class="footer__area">
-      <p class="footer__logo"><a href=""><img src="images/footer_logo.png" alt=""></a></p>
+      <p class="footer__logo"><a href=""><img src="images/footer_logo.png" alt="T-PLAN CO.LTD"></a></p>
       <div class="pc__only">
         <ul class="footer__list pc__only">
           <li class="footer__list__item"><a href="#rental">レンタルバイク一覧</a></li>
           <li class="footer__list__item"><a href="#price">料金について</a></li>
           <li class="footer__list__item"><a href="#insuranc">保険・補償について</a></li>
           <li class="footer__list__item"><a href="#access">アクセス</a></li>
-          <li class="footer__list__item"><a href="">会社概要</a></li>
+          <li class="footer__list__item"><a href="https://t-plan8.com/">会社概要</a></li>
           <li class="footer__list__item"><a href="#contact">コンタクト</a></li>
         </ul>
       </div><!-- /.pc__only -->
       <div class="footer__logo__dynamite">
-        <p class="footer__logo__dynamite__img-1"><img src="images/footer__dynamite1.png" alt=""></p>
-        <p class="footer__logo__dynamite__img-2"><img src="images/footer__dynamite2.png" alt=""></p>
+        <p class="footer__logo__dynamite__img-1"><img src="images/footer__dynamite1.png" alt="dynamite craw japan"></p>
+        <p class="footer__logo__dynamite__img-2"><img src="images/footer__dynamite2.png" alt="dynamite craw japan"></p>
       </div><!-- /.footer__logo__dynamite -->
       <small class="copy">© 2020 T-Plan all rights reserved.</small>
     </div><!-- /.footer_area -->
