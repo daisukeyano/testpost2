@@ -38,5 +38,8 @@ $(function() {
       $('#nav-toggle').click(function(){
           $header.toggleClass('open');
       });
+      $('.header__list__item').click(function(){
+        $header.toggleClass('open');
+    });
   });
 });
